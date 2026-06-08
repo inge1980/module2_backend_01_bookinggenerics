@@ -1,5 +1,5 @@
-using Core.Contracts;
-namespace Core.Contracts;
+using Contracts;
+namespace Contracts;
 
 public interface IRepository<T>
 {

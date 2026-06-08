@@ -1,6 +1,6 @@
-using Core.Contracts;
+using Contracts;
 
-namespace Core.Repositories;
+namespace Repositories;
 
 public class Repository<T> : IRepository<T>
     where T : class

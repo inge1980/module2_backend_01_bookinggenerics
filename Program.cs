@@ -1,5 +1,5 @@
-﻿using Core.Models;
-using Core.Repositories;
+﻿using Models;
+using Repositories;
 
 Repository<HotelRoom> roomRepository = new();
 Repository<Guest> guestRepository = new();
