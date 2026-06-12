@@ -18,4 +18,8 @@
     <Using Include="Xunit" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\src\module2_backend_01_bookinggenerics.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,7 +1,4 @@
-﻿//using Xunit;
-using src.Models.Booking;
-using src.Models.Guest;
-using src.Models.HotelRoom;
+﻿using Models;
 namespace tests;
 
 public class BookingFormBuilderTests
@@ -9,18 +6,14 @@ public class BookingFormBuilderTests
     [Fact]
     public void Booking_WithValidData_ValidateReturnsTrue()
     {
-        var form = new Booking
+        var booking = new Booking
         {
-            CustomerName = "John",
-            CustomerEmail = "john@example.com",
-            CustomerPhone = "12345678",
-            RoomType = RoomType.Double,
-            BookingDate = DateTime.Today,
-            CheckInDate = DateTime.Today.AddDays(1),
-            CheckOutDate = DateTime.Today.AddDays(2)
+            GuestName = "Ola Nordmann",
+            RoomNumber = 101,
+            BookingDate = DateTime.Today
         };
 
-        var isValid = form.Validate(out var errors);
+        var isValid = booking.Validate(out var errors);
 
         Assert.True(isValid);
         Assert.Empty(errors);

@@ -6,6 +6,14 @@ Denne oppgaven utforsker generiske typer og interfaces i C#.
 
 Prosjektet er laget som en forberedelse til en kommende hotellbooking-applikasjon.
 
+## Kommandoer
+
+```bash
+dotnet run --project src/module2_backend_01_bookinggenerics.csproj
+
+```bash
+dotnet test
+
 ## Bruk av Generics
 
 Prosjektet inneholder en generisk Repository<T>-klasse som kan håndtere flere forskjellige datatyper:
