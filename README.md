@@ -106,11 +106,13 @@ Bekrefter at business rules for Booking fungerer korrekt ved gyldig input.
 
 ```bash
 dotnet test
+```
 
 ## Kjøring av prosjektet
 
 ```bash
 dotnet run --project src/module2_backend_01_bookinggenerics.csproj
+```
 
 ## Videre utvikling
 
