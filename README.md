@@ -26,6 +26,10 @@ Fordeler:
 - Enklere testing
 - Løs kobling mellom implementasjon og bruk
 
+## Testing
+
+[Test README](./tests/test-README.md)
+
 ## Kjøring av prosjektet
 
 ```bash
