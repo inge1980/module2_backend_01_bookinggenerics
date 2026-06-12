@@ -100,13 +100,12 @@ Tester domenelogikk i `Booking`.
 
 Bekrefter at business rules for Booking fungerer korrekt ved gyldig input.
 
+---
 
 ## Kjøring av tester
 
 ```bash
 dotnet test
-
----
 
 ## Kjøring av prosjektet
 
