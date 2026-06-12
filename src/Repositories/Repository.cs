@@ -13,7 +13,7 @@ public class Repository<T> : IRepository<T>
 
     public List<T> GetAll()
     {
-        return items;
+        return items.ToList();
     }
 
     public T? GetByIndex(int index)
