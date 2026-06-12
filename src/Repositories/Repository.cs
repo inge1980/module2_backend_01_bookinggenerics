@@ -1,5 +1,4 @@
 using Contracts;
-
 namespace Repositories;
 
 public class Repository<T> : IRepository<T>

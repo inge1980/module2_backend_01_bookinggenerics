@@ -1,6 +1,7 @@
 ﻿using Models;
 using Repositories;
 
+
 Repository<HotelRoom> roomRepository = new();
 Repository<Guest> guestRepository = new();
 Repository<Booking> bookingRepository = new();

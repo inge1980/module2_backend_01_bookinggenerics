@@ -1,12 +1,15 @@
-﻿using Xunit;
+﻿//using Xunit;
+using src.Models.Booking;
+using src.Models.Guest;
+using src.Models.HotelRoom;
 namespace tests;
 
 public class BookingFormBuilderTests
 {
     [Fact]
-    public void BookingForm_WithValidData_ValidateReturnsTrue()
+    public void Booking_WithValidData_ValidateReturnsTrue()
     {
-        var form = new BookingForm
+        var form = new Booking
         {
             CustomerName = "John",
             CustomerEmail = "john@example.com",

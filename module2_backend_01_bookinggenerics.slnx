@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/module2_backend_01_bookinggenerics.csproj" />
+  </Folder>
+  <Project Path="tests/tests.csproj" />
+</Solution>
